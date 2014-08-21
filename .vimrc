@@ -33,7 +33,7 @@ set hlsearch
 " Tabs 
 " =============================================================================
 set autoindent
-" set expandtab
+set expandtab
 set shiftwidth=4
 set smartindent
 set smarttab
@@ -55,6 +55,8 @@ nnoremap <leader>j :bp<CR>
 nnoremap <leader>k :bn<CR>
 nnoremap <leader>J :bfirst<CR>
 nnoremap <leader>K :blast<CR>
+" Toggle spell
+nnoremap <leader>s :setlocal spell! spelllang=en_us<CR>
 
 " Octave
 " =============================================================================
