@@ -57,6 +57,15 @@ nnoremap <leader>J :bfirst<CR>
 nnoremap <leader>K :blast<CR>
 " Toggle spell
 nnoremap <leader>s :setlocal spell! spelllang=en_us<CR>
+" Auto verymagic
+nnoremap / /\v
+
+" gvim
+" =============================================================================
+if has('gui_running')
+      set guifont=Monospace\ 11
+endif
+
 
 " Octave
 " =============================================================================
