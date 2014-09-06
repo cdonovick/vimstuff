@@ -59,6 +59,7 @@ nnoremap <leader>K :blast<CR>
 nnoremap <leader>s :setlocal spell! spelllang=en_us<CR>
 " Auto verymagic
 nnoremap / /\v
+vnoremap / /\v
 
 " gvim
 " =============================================================================
