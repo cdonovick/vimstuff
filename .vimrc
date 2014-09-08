@@ -67,6 +67,20 @@ if has('gui_running')
       set guifont=Monospace\ 11
 endif
 
+" C/C++
+" =============================================================================
+function! IncludeGuard()
+    let name = substitute(toupper(expand('%:t')), '\.', "_", "g")
+    let lines = []
+    let lines +=  ["#ifndef " . name]
+    let lines +=  ["#define " . name]
+    let lines +=  [""]
+    let lines +=  ["#endif"]
+    return lines
+endfunction
+autocmd BufNewFile *.h  call append(0, IncludeGuard())
+
+
 
 " Octave
 " =============================================================================
@@ -81,4 +95,4 @@ if has("autocmd") && exists("+omnifunc")
    \	if &omnifunc == "" | 
    \	 setlocal omnifunc=syntaxcomplete#Complete | 
    \	endif 
-endif 
+endif
