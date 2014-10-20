@@ -69,6 +69,7 @@ endif
 
 " C/C++
 " =============================================================================
+" Auto include gaurds for headers
 function! IncludeGuard()
     let name = substitute(toupper(expand('%:t')), '\.', "_", "g")
     let lines = []
@@ -79,6 +80,22 @@ function! IncludeGuard()
     return lines
 endfunction
 autocmd BufNewFile *.h  call append(0, IncludeGuard())
+
+" Auto main.cpp
+function! MainCPP()
+    let lines = []
+    if filereadable("standard.h")
+        let lines += ["#include \"standard.h\""]
+        let lines += [""]
+    endif
+
+    let lines += ["int main(int argc, char **argv) {"]
+    let lines += [""]
+    let lines += ["\treturn 0"]
+    let lines += ["}"]
+    return lines
+endfunction
+autocmd BufNewFile [mM]ain.cpp call append(0, MainCPP())
 
 
 
