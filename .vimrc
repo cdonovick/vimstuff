@@ -91,7 +91,7 @@ function! MainCPP()
 
     let lines += ["int main(int argc, char **argv) {"]
     let lines += [""]
-    let lines += ["\treturn 0"]
+    let lines += ["\treturn 0;"]
     let lines += ["}"]
     return lines
 endfunction
