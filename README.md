@@ -1,1 +1,4 @@
-ln -s ~/.vim/.vimrc ~/.vimrc
+Change ~/.vimrc to:
+source ./vimrc
+
+Or use a link
