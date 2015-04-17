@@ -13,3 +13,11 @@ nnoremap <leader>s :setlocal spell! spelllang=en_us<CR>
 " Auto verymagic
 nnoremap / /\v
 vnoremap / /\v
+
+" Use global register for copy paste
+vnoremap d "+d
+vnoremap y "+y
+vnoremap p ""ygv"+p
+nnoremap d "+d
+nnoremap y "+y
+nnoremap p "+p
