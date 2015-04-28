@@ -60,7 +60,15 @@ function! NewH()
     let lines +=  IncludeGuard(name . "_H" )
     
     if filereadable(name . ".cpp")
-        " should prompt to add the include to the cpp file
+        inputsave()
+        let i = input("Do you want to inlcude " . name . ".h in " . name . ".cpp? [y,n]")
+        while !(i == 'y' || i == 'n')
+            let i = input("please answer with y or n")
+        endwhile
+        if i == 'y'
+            " Buffer file
+        endif
+        inputrestore()
     endif
 
 

@@ -108,8 +108,9 @@ let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
 " My method for including seems like a hack 
 " Global Key mapping
-exec "source " .  s:path . "/maps.vim"
+exec "source " . s:path . "/maps.vim"
 
 " Language specific modules
-exec "source " .  s:path . "/c.vim"
-exec "source " .  s:path . "/octave.vim"
+exec "source " . s:path . "/c.vim"
+exec "source " . s:path . "/octave.vim"
+exec "source " . s:path . "/xml.vim"
