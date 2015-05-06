@@ -70,7 +70,7 @@ hi Label guifg=#00eeff guibg=NONE guisp=NONE gui=NONE ctermfg=14 ctermbg=NONE ct
 hi PMenuSel guifg=#0000ff guibg=#a9a9a9 guisp=#a9a9a9 gui=NONE ctermfg=21 ctermbg=248 cterm=NONE
 hi Delimiter guifg=#ff8800 guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi Statement guifg=#70bfff guibg=NONE guisp=NONE gui=NONE ctermfg=75 ctermbg=NONE cterm=NONE
-hi Comment guifg=#36e600 guibg=NONE guisp=NONE gui=bold ctermfg=76 ctermbg=NONE cterm=bold
+hi Comment guifg=#5fd75f guibg=NONE guisp=NONE gui=bold ctermfg=77 ctermbg=NONE cterm=bold
 hi Character guifg=#ff4520 guibg=NONE guisp=NONE gui=NONE ctermfg=196 ctermbg=NONE cterm=NONE
 hi Number guifg=#ff870f guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#70bfff guibg=NONE guisp=NONE gui=NONE ctermfg=75 ctermbg=NONE cterm=NONE
