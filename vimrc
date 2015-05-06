@@ -97,11 +97,17 @@ let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
 " My method for including seems like a hack 
 " Global Key mapping
-exec "source " .  s:path . "/maps.vim"
+exec "source " . s:path . "/maps.vim"
 
 " Language specific modules
+<<<<<<< HEAD
 exec "source " .  s:path . "/c.vim"
 exec "source " .  s:path . "/octave.vim"
 
 " YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm/.ycm_extra_conf.py'
+=======
+exec "source " . s:path . "/c.vim"
+exec "source " . s:path . "/octave.vim"
+exec "source " . s:path . "/xml.vim"
+>>>>>>> 619179883e85aebc5e8666ba7e539eca0d2fac58
