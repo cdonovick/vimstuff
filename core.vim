@@ -17,7 +17,7 @@ set number
 set ruler
 set laststatus=2
 set visualbell
-set showbreak=    
+set showbreak=+\ \ \ \  
 
 " Colors
 " =============================================================================

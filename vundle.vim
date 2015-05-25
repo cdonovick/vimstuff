@@ -14,7 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " plugins
 " =======
-" C/C++ autocomple
+" autocomple
 Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
