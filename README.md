@@ -1,4 +1,6 @@
 Change ~/.vimrc to:
-source ./vimrc
+source "<path>/vimrc.vim"
 
-Or use a link
+Or use a link:
+ln --symbolic ~/.vimrc <path>/vimrc.vim
+
