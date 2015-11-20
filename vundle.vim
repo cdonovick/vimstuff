@@ -16,6 +16,7 @@ Plugin 'gmarik/Vundle.vim'
 " =======
 " autocomple
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator'
 Plugin 'adimit/prolog.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -33,4 +34,4 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " YouCompleteMe Config
-let g:ycm_global_ycm_extra_conf = g:config_path . '/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = g:config_path . '/ycm/ycm_extra_conf.py'
