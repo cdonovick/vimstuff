@@ -78,6 +78,3 @@ function! NewH()
 
     return lines
 endfunction
-
-autocmd BufNewFile *.c,*.cpp call append(0, NewCPP())
-autocmd BufNewFile *.h  call append(0, NewH())
