@@ -18,6 +18,7 @@ set ruler
 set laststatus=2
 set visualbell
 set showbreak=+\ \ \ \  
+set nowrap
 
 " Colors
 " =============================================================================
