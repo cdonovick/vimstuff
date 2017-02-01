@@ -18,11 +18,21 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 
+" color coded
+" Plugin 'jeaye/color_coded'
+
 " prolog
 Plugin 'adimit/prolog.vim'
 
+" Tabular
+Plugin 'godlygeek/tabular'
+
+" Mark Down
+" Requires Tabular
+Plugin 'plasticboy/vim-markdown'
+
 " haskell
-" Plugin 'eagletmt/neco-ghc'
+Plugin 'eagletmt/neco-ghc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

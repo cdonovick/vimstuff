@@ -19,11 +19,13 @@ set laststatus=2
 set visualbell
 set showbreak=+\ \ \ \  
 set nowrap
+set scrolloff=2
 
 " Colors
 " =============================================================================
 "set background=dark
-colorscheme AltF4 
+set termguicolors
+colorscheme true 
 
 " Search
 " =============================================================================
