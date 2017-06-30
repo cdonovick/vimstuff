@@ -1,4 +1,4 @@
-" Vim color file - AltF4
+" 24bit color scheme
 
 set background=dark
 if version > 580
@@ -15,12 +15,13 @@ hi Normal guifg=#b6bbaa guibg=#101010
 hi SpellBad guifg=#e0f0f0 guibg=#f01010
 hi Constant guifg=#ff9928
 hi String guifg=#ff7c48
-hi Statement guifg=#8cc0d6 
+hi Statement guifg=#8cc0d6
 hi PreProc guifg=#00c6ff
 hi Comment guifg=#52d31b
 hi Type guifg=#00dffe
 hi Special guifg=#f194ff
 hi Function guifg=#a898ff
+hi LineNr guifg=#54594a
 
 " Color coded
 hi Member guifg=NONE

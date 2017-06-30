@@ -23,9 +23,10 @@ set scrolloff=2
 
 " Colors
 " =============================================================================
-"set background=dark
-set termguicolors
-colorscheme true 
+"set termguicolors
+set t_Co=256
+"colorscheme true
+colorscheme term
 
 " Search
 " =============================================================================
