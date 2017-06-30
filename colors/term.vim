@@ -1,4 +1,5 @@
 " True converted to term colors
+set t_Co=256
 
 set background=dark
 if version > 580

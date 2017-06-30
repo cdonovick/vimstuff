@@ -23,10 +23,11 @@ set scrolloff=2
 
 " Colors
 " =============================================================================
-"set termguicolors
-set t_Co=256
-"colorscheme true
-colorscheme term
+if has("termguicolors")
+    colorscheme true
+else
+    colorscheme term
+endif
 
 " Search
 " =============================================================================

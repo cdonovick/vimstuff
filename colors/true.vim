@@ -1,4 +1,5 @@
 " 24bit color scheme
+set termguicolors
 
 set background=dark
 if version > 580
