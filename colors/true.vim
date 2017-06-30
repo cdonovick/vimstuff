@@ -23,8 +23,5 @@ hi Type guifg=#00dffe
 hi Special guifg=#f194ff
 hi Function guifg=#a898ff
 hi LineNr guifg=#54594a
-
-" Color coded
-hi Member guifg=NONE
-hi Variable guifg=NONE
-
+hi Search guifg=none guibg=#222222
+hi Visual guifg=none guibg=#343434
