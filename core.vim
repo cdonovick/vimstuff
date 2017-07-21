@@ -1,7 +1,7 @@
 " Basic UI and usage tweaks more complex things in own modules
 " Usage
 " =============================================================================
-set hidden
+" set hidden
 set magic
 
 " filetypes
@@ -17,16 +17,16 @@ set number
 set ruler
 set laststatus=2
 set visualbell
-set showbreak=+\ \ \ \  
+set showbreak=...
 set nowrap
 set scrolloff=2
 
 " Colors
 " =============================================================================
-if has("termguicolors")
-    colorscheme true
+if has('termguicolors') && ( $TMUX == '' || eval(matchstr(system('tmux -V'), '\v\d+.\d+')) >= 2.2 )
+	colorscheme true
 else
-    colorscheme term
+	colorscheme term
 endif
 
 " Search
@@ -35,16 +35,16 @@ set smartcase
 set incsearch
 set hlsearch
 
-" Tabs 
+" Tabs
 " =============================================================================
 set autoindent
-set expandtab
+set noexpandtab
 set shiftwidth=4
 set cindent
 set smarttab
 set tabstop=4
 set softtabstop=4
- 
+
 " Other
 " =============================================================================
 set undolevels=1000

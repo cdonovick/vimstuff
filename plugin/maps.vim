@@ -26,4 +26,5 @@ vnoremap / /\v
 "nnoremap p "+p
 
 "command! e tabe
-"cnoremap e tabe
+nnoremap <leader>t :tab sball<CR>
+nnoremap <leader>e :tabe

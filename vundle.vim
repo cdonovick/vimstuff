@@ -34,6 +34,12 @@ Plugin 'plasticboy/vim-markdown'
 " haskell
 Plugin 'eagletmt/neco-ghc'
 
+" Indentation guides
+Plugin 'Yggdroot/indentLine'
+let g:indentLine_color_gui = '#54594a'
+let g:indentLine_color_term = 240
+let g:indentLine_char = '|'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

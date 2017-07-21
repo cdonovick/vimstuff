@@ -9,7 +9,7 @@ if version > 580
 	endif
 endif
 
-let g:colors_name = "true"
+let g:colors_name = "term"
 
 hi clear
 hi Normal ctermfg=250 ctermbg=233

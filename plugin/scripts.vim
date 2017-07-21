@@ -21,7 +21,7 @@ endfunction
 autocmd! BufRead,BufNewFile * call GetEnviroment()
 
 " auto tab
-autocmd! BufRead,BufNewFile * nested
-           \ if &buftype != "nofile" && &buftype != "help" | 
-           \   tab sball |
-           \ endif 
+" autocmd! BufRead,BufNewFile * nested
+"            \ if &buftype != "nofile" && &buftype != "help" |
+"            \   tab sball |
+"            \ endif
