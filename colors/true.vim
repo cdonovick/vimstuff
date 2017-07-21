@@ -23,5 +23,5 @@ hi Type guifg=#00dffe
 hi Special guifg=#f194ff
 hi Function guifg=#a898ff
 hi LineNr guifg=#54594a
-hi Search guifg=none guibg=#222222
-hi Visual guifg=none guibg=#343434
+hi Search guifg=NONE guibg=#222222
+hi Visual guifg=NONE guibg=#343434
