@@ -10,18 +10,23 @@ if version > 580
 endif
 
 let g:colors_name = "term"
-
 hi clear
-hi Normal ctermfg=250 ctermbg=233
-hi SpellBad ctermfg=255 ctermbg=196
-hi Constant ctermfg=208
-hi String ctermfg=209
-hi Statement ctermfg=110
-hi PreProc ctermfg=39
-hi Comment ctermfg=76
-hi Type ctermfg=81
-hi Special ctermfg=213
-hi Function ctermfg=141
-hi LineNr ctermfg=240
-hi Search ctermfg=none ctermbg=235
-hi Visual ctermfg=none ctermbg=237
+
+hi Normal      ctermfg=250  ctermbg=233  term=NONE              cterm=NONE
+hi SpellBad    ctermfg=NONE ctermbg=196  term=reverse,undercurl cterm=reverse,undercurl
+hi Constant    ctermfg=208  ctermbg=NONE term=NONE              cterm=NONE
+hi String      ctermfg=209  ctermbg=NONE term=NONE              cterm=NONE
+hi Statement   ctermfg=110  ctermbg=NONE term=NONE              cterm=NONE
+hi PreProc     ctermfg=39   ctermbg=NONE term=NONE              cterm=NONE
+hi Comment     ctermfg=76   ctermbg=NONE term=NONE              cterm=NONE
+hi Type        ctermfg=81   ctermbg=NONE term=NONE              cterm=NONE
+hi Special     ctermfg=213  ctermbg=NONE term=NONE              cterm=NONE
+hi Identifier  ctermfg=NONE guibg=NONE   term=NONE              cterm=NONE
+hi Function    ctermfg=141  ctermbg=NONE term=NONE              cterm=NONE
+hi LineNr      ctermfg=240  ctermbg=NONE term=NONE              cterm=NONE
+hi Search      ctermfg=NONE ctermbg=237  term=NONE              cterm=NONE
+hi Visual      ctermfg=NONE ctermbg=237  term=NONE              cterm=NONE
+hi Error       ctermfg=NONE ctermbg=196  term=reverse           cterm=reverse
+hi TabLine     ctermfg=250  ctermbg=237  term=NONE              cterm=NONE
+hi TabLineFill ctermfg=250  ctermbg=235  term=NONE              cterm=NONE
+hi TabLineSel  ctermfg=250  ctermbg=237  term=reverse           cterm=reverse

@@ -36,7 +36,7 @@ Plugin 'eagletmt/neco-ghc'
 
 " Indentation guides
 Plugin 'Yggdroot/indentLine'
-let g:indentLine_color_gui = '#54594a'
+let g:indentLine_color_gui  = '#54594a'
 let g:indentLine_color_term = 240
 let g:indentLine_char = '|'
 
