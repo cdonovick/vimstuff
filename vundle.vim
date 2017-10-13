@@ -33,12 +33,19 @@ Plugin 'plasticboy/vim-markdown'
 
 " haskell
 Plugin 'eagletmt/neco-ghc'
+Plugin 'neovimhaskell/haskell-vim'
+
+" Python
+Plugin 'hdima/python-syntax'
 
 " Indentation guides
 Plugin 'Yggdroot/indentLine'
 let g:indentLine_color_gui  = '#54594a'
 let g:indentLine_color_term = 240
 let g:indentLine_char = '|'
+
+" Recover .swp
+Plugin 'chrisbra/Recover.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

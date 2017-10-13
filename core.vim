@@ -2,7 +2,6 @@
 " Usage
 " =============================================================================
 " set hidden
-set magic
 
 " filetypes
 " =============================================================================
@@ -12,7 +11,8 @@ filetype indent on
 
 " UI
 " =============================================================================
-set statusline=[%n]%-2.(%H%M\ %)%<%f%=%-14.(%l/%L,\ %c%V%)\ %P
+
+set statusline=%2n:\ %-2.(%M%h%w%r\ %)%<%f\ %y%=%-14.(%l/%L,\ %c%V%)\ %P
 set number
 set ruler
 set laststatus=2
@@ -20,6 +20,11 @@ set visualbell
 set showbreak=...
 set nowrap
 set scrolloff=2
+set showmatch
+set cursorline
+set wildmenu
+set showcmd
+
 
 " Colors
 " =============================================================================
@@ -31,11 +36,12 @@ endif
 
 " Search
 " =============================================================================
+set magic
 set smartcase
 set incsearch
 set hlsearch
 
-" Tabs
+" Indent
 " =============================================================================
 set autoindent
 set noexpandtab

@@ -30,3 +30,4 @@ hi Error       guifg=NONE    guibg=#f01010 term=reverse           cterm=reverse 
 hi TabLine     guifg=#b6bbaa guibg=#343434 term=NONE              cterm=NONE              gui=NONE
 hi TabLineFill guifg=#b6bbaa guibg=#222222 term=NONE              cterm=NONE              gui=NONE
 hi TabLineSel  guifg=#b6bbaa guibg=#343434 term=reverse           cterm=reverse           gui=reverse
+hi CursorLine  guifg=None    guibg=None    term=None              cterm=None              gui=None

@@ -31,8 +31,15 @@ nnoremap <leader>J :tabm -1<CR>
 nnoremap <leader>K :tabm +1<CR>
 
 " window commands
-nnoremap <leader>wn <C-w>n
-nnoremap <leader>wh <C-w>h
-nnoremap <leader>wj <C-w>j
-nnoremap <leader>wk <C-w>k
-nnoremap <leader>wl <C-w>l
+nnoremap <leader>w <C-w>
+"nnoremap <leader>wn <C-w>n
+"nnoremap <leader>wh <C-w>h
+"nnoremap <leader>wj <C-w>j
+"nnoremap <leader>wk <C-w>k
+"nnoremap <leader>wl <C-w>l
+"
+"map <Left> h
+"map <Right> l
+"map <Up> k
+"map <Down> j
+"
