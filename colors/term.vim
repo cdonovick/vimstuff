@@ -30,4 +30,4 @@ hi Error       ctermfg=NONE ctermbg=196  term=reverse           cterm=reverse
 hi TabLine     ctermfg=250  ctermbg=237  term=NONE              cterm=NONE
 hi TabLineFill ctermfg=250  ctermbg=235  term=NONE              cterm=NONE
 hi TabLineSel  ctermfg=250  ctermbg=237  term=reverse           cterm=reverse
-hi CursorLine  ctermfg=None ctermbg=None term=None              cterm=None
+hi CursorLine  ctermfg=NONE ctermbg=NONE term=NONE              cterm=NONE
