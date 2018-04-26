@@ -31,6 +31,9 @@ Plugin 'godlygeek/tabular'
 " Requires Tabular
 Plugin 'plasticboy/vim-markdown'
 
+" CMake
+" Plugin 'pboettch/vim-cmake-syntax'
+
 " haskell
 Plugin 'eagletmt/neco-ghc'
 Plugin 'neovimhaskell/haskell-vim'
@@ -47,6 +50,12 @@ let g:indentLine_char = '|'
 " Recover .swp
 Plugin 'chrisbra/Recover.vim'
 
+
+" Essence
+Plugin 'Bilalh/Essence-Syntax-Highlighting'
+
+" Minizinc
+Plugin 'vale1410/vim-minizinc'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

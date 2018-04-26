@@ -12,12 +12,13 @@ nnoremap / /\v
 vnoremap / /\v
 
 " Use global register for copy paste
-"vnoremap d "+d
-"vnoremap y "+y
+vnoremap d "+d
+vnoremap y "+y
+vnoremap p "+p
 "vnoremap p ""ygv"+p
-"nnoremap d "+d
-"nnoremap y "+y
-"nnoremap p "+p
+nnoremap d "+d
+nnoremap y "+y
+nnoremap p "+p
 
 "command! e tabe
 nnoremap <leader>t :tab sball<CR>
