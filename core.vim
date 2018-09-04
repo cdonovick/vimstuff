@@ -30,8 +30,10 @@ set showcmd
 " =============================================================================
 if has('termguicolors') && ( $TMUX == '' || eval(matchstr(system('tmux -V'), '\v\d+.\d+')) >= 2.2 )
 	colorscheme true
+	let g:colors_name = "true"
 else
 	colorscheme term
+	let g:colors_name = "term"
 endif
 
 " Search
@@ -43,13 +45,13 @@ set hlsearch
 
 " Indent
 " =============================================================================
-set autoindent
-set noexpandtab
 set shiftwidth=4
+set softtabstop=0
+set tabstop=4
+set noexpandtab
+set autoindent
 set cindent
 set smarttab
-set tabstop=4
-set softtabstop=4
 
 " Other
 " =============================================================================

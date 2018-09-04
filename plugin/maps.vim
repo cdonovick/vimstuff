@@ -2,7 +2,7 @@
 " =============================================================================
 let mapleader = ";"
 " Clear search results
-nnoremap <leader> :nohl<CR>
+nnoremap <leader>l :nohl<CR>
 
 " Toggle spell
 nnoremap <leader>s :setlocal spell! spelllang=en_us<CR>
@@ -19,13 +19,14 @@ vnoremap p "+p
 nnoremap d "+d
 nnoremap y "+y
 nnoremap p "+p
+nnoremap P "+P
 
 "command! e tabe
 nnoremap <leader>t :tab sball<CR>
 nnoremap <leader>e :tabe
 
 
-" tab commands
+" tab commands;
 nnoremap <leader>j :tabp<CR>
 nnoremap <leader>k :tabn<CR>
 nnoremap <leader>J :tabm -1<CR>
@@ -38,9 +39,19 @@ nnoremap <leader>w <C-w>
 "nnoremap <leader>wj <C-w>j
 "nnoremap <leader>wk <C-w>k
 "nnoremap <leader>wl <C-w>l
+
+nnoremap <leader><C-d> :close<CR>
+
 "
 "map <Left> h
 "map <Right> l
 "map <Up> k
 "map <Down> j
 "
+
+" Maps for ycm
+nnoremap <leader>g :tab split<CR>:YcmCompleter GoTo<CR>
+nnoremap <leader>d :tab split<CR>:YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>D :tab split<CR>:YcmCompleter GoToDefinition<CR>
+nnoremap <leader>i :tab split<CR>:YcmCompleter GoToInclude<CR>
+
