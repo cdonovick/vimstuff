@@ -8,9 +8,9 @@ unlet b:current_syntax
 let b:current_syntax = "sygus"
 
 syntax keyword sygusKeyword
-      \ constraint
-	  \ check-synth
-      \ synth-fun
+	\ constraint
+	\ check-synth
+	\ synth-fun
 
 
 highlight link sygusKeyword Special
