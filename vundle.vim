@@ -18,11 +18,16 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 
+" Better tabs
+"Plugin 'gauravjuvekar/Smart-Tabs'
+"Plugin 'vim-scripts/IndentTab'
+"let g:IndentTab = 1
+
 " color coded
 " Plugin 'jeaye/color_coded'
 
 " prolog
-Plugin 'adimit/prolog.vim'
+" Plugin 'adimit/prolog.vim'
 
 " Tabular
 Plugin 'godlygeek/tabular'
@@ -45,15 +50,21 @@ Plugin 'hdima/python-syntax'
 
 " Indentation guides
 Plugin 'Yggdroot/indentLine'
-let g:indentLine_color_gui  = '#54594a'
-let g:indentLine_color_term = 240
+let g:indentLine_defaultGroup = "Whitespace"
 let g:indentLine_char = '|'
+"let g:indentLine_color_gui  = "#54594a"
+"let g:indentLine_color_term = "240"
+"set conceallevel=1
+"let g:indentLine_conceal = 1
 
 " Recover .swp
 Plugin 'chrisbra/Recover.vim'
 
 " SMT2 Lib
 Plugin 'bohlender/vim-smt2'
+
+"Sygus
+Plugin 'cdonovick/vim-sygus'
 
 " swig
 Plugin 'SpaceVim/vim-swig'
@@ -63,7 +74,10 @@ Plugin 'SpaceVim/vim-swig'
 
 " Minizinc
 " Plugin 'vale1410/vim-minizinc'
-"
+
+" KeepCase
+Plugin 'vim-scripts/keepcase.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
