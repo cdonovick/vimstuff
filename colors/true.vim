@@ -35,3 +35,4 @@ hi CursorLineNR guifg=#8c4300 guibg=NONE    term=NONE              cterm=NONE   
 
 hi Pmenu        guifg=NONE    guibg=#222222 term=NONE              cterm=NONE              gui=NONE
 hi PmenuSel     guifg=#fea358 guibg=#222222 term=NONE              cterm=NONE              gui=NONE
+hi WhiteSpace   guifg=#54594a guibg=NONE    term=NONE              cterm=NONE              gui=NONE
