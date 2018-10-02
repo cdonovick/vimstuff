@@ -9,7 +9,6 @@ if version > 580
 	endif
 endif
 
-let g:colors_name = "term"
 hi clear
 
 hi Normal      ctermfg=250  ctermbg=233  term=NONE              cterm=NONE
@@ -32,3 +31,5 @@ hi TabLineFill ctermfg=250  ctermbg=235  term=NONE              cterm=NONE
 hi TabLineSel  ctermfg=250  ctermbg=237  term=reverse           cterm=reverse
 hi CursorLine  ctermfg=NONE ctermbg=NONE term=NONE              cterm=NONE
 hi WhiteSpace  ctermfg=240  ctermbg=NONE term=NONE              cterm=NONE
+
+let g:colors_name = "term"
