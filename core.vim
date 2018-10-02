@@ -28,13 +28,12 @@ set showcmd
 
 " Colors
 " =============================================================================
-if has('termguicolors') && ( $TMUX == '' || eval(matchstr(system('tmux -V'), '\v\d+.\d+')) >= 2.2 )
-	colorscheme true
-	let g:colors_name = "true"
-else
-	colorscheme term
-	let g:colors_name = "term"
-endif
+"if has('termguicolors') && ( $TMUX == '' || eval(matchstr(system('tmux -V'), '\v\d+.\d+')) >= 2.2 )
+"	colorscheme true
+"else
+"	colorscheme term
+"endif
+colorscheme true
 
 " Search
 " =============================================================================
@@ -46,12 +45,13 @@ set hlsearch
 " Indent
 " =============================================================================
 set shiftwidth=4
-set softtabstop=0
+set softtabstop=4
 set tabstop=4
 set noexpandtab
 set autoindent
 set cindent
 set smarttab
+set list lcs=tab:\|\ "important trailing whitespace
 
 " Other
 " =============================================================================
