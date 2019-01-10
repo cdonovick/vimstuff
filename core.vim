@@ -34,6 +34,7 @@ set showcmd
 "	colorscheme term
 "endif
 colorscheme true
+"colorscheme term
 
 " Search
 " =============================================================================

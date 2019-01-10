@@ -46,14 +46,14 @@ Plugin 'eagletmt/neco-ghc'
 Plugin 'neovimhaskell/haskell-vim'
 
 " Python
-Plugin 'hdima/python-syntax'
+"Plugin 'hdima/python-syntax'
+Plugin 'cdonovick/python-syntax'
+let g:python_highlight_all = 1
 
 " Indentation guides
 Plugin 'Yggdroot/indentLine'
 let g:indentLine_defaultGroup = "Whitespace"
 let g:indentLine_char = '|'
-"let g:indentLine_color_gui  = "#54594a"
-"let g:indentLine_color_term = "240"
 "set conceallevel=1
 "let g:indentLine_conceal = 1
 
