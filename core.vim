@@ -25,7 +25,6 @@ set cursorline
 set wildmenu
 set showcmd
 
-
 " Colors
 " =============================================================================
 "if has('termguicolors') && ( $TMUX == '' || eval(matchstr(system('tmux -V'), '\v\d+.\d+')) >= 2.2 )
@@ -35,6 +34,10 @@ set showcmd
 "endif
 colorscheme true
 "colorscheme term
+
+" Higlight trailing whitespace
+match Trailing /\v\s+$/
+
 
 " Search
 " =============================================================================

@@ -41,4 +41,7 @@ hi PmenuSel     guifg=#fea358 guibg=#222222 term=NONE              cterm=NONE   
 " Tab indecators
 hi WhiteSpace   guifg=#54594a guibg=NONE    term=NONE              cterm=NONE              gui=NONE
 
+" Trailing Whitespace
+hi Trailing     guifg=NONE    guibg=#54594a term=NONE              cterm=NONE              gui=NONE
+
 let g:colors_name = "true"

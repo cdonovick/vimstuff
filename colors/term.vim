@@ -41,4 +41,7 @@ hi PmenuSel     ctermfg=215  ctermbg=235  term=NONE              cterm=NONE
 " Tab indecators
 hi WhiteSpace  ctermfg=240  ctermbg=NONE term=NONE              cterm=NONE
 
+" Trailing Whitespace
+hi Trailing    ctermfg=NONE ctermbg=240   term=NONE             cterm=NONE
+
 let g:colors_name = "term"
